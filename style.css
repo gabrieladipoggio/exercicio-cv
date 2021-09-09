@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --main: #058AB5;
+    --text: #787878;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    border: 3px solid var(--text);
+    margin: 0 auto;
+    color: var(--text);
+    
+}
+
+.title {
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.title h3{
+    margin: 0 auto;
+    width:400px;
+    text-transform:uppercase;
+    position: relative;
+    top: 20px;
+    font-size: 26px;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.container{
+    width:80vw;
+    margin: 30px auto;
+}
+
+h1{
+    color: var(--main);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+main {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 120px;
+
+}
+
+section h2 {
+    color: var(--main);
+    border-bottom: 2px solid var(--text);
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+section p{
+    font-weight: 600;
+}
+
+section:first-of-type p:first-of-type{
+    font-weight: inherit;
+    font-style: normal;
+}
+
+section div p:nth-child(3){
+    font-style: italic;
+    font-weight: inherit;
+}
+
+section div:first-of-type {
+    margin-bottom: 15px;
+}
+
+.col:nth-child(2) p{
+    font-weight: inherit;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-style: normal;
+}
+
+a:hover{
+    color: var(--text);
+}
+
+ul li {
+    margin-left: 25px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+
+.skill:first-of-type{
+    margin-bottom: 0;
+}
+
+.skill span{
+    font-size: 24px;
+}
+
+.skill span:first-of-type{
+    color: var(--main)
+}
+
+.skill span:last-of-type{
+    color: #CCCCCC;
+}
+
+
